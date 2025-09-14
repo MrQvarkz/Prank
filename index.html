@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prank Page</title>
+    <style>
+        body {
+            background: black;
+            color: lime;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            margin: 0;
+            padding: 20px;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div>you belong to Q now</div>
+    <script>
+        setTimeout(function() {
+            document.body.innerHTML = '<div>Prank over! Close this tab.</div>';
+        }, 180000); // 3 minutes = 180000 ms
+    </script>
+</body>
+</html>
